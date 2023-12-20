@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+   background: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2em;
+    color: red;
+    cursor: default;
+}
+
+span {
+    color: red;
+}
+
+.navigation a {
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+    padding: 5px 5px;
+    position: relative;
+    
+}
+
+.navigation a:hover {
+    color: blue;
+    
+}
+
+.tombol-download {
+    color: white;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.tombol-download:hover {
+    color: black;
+    background: transparent;
+}
+
+.home {
+   
+    border-radius: 10px;
+    border: 2px solid;
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    
+    background-size: contain;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.content {
+    max-width: 500px;
+    color:black;
+}
+
+.content h4 {
+    font-size: 2em;
+}
+
+.content p {
+    padding: 10px 0 40px 0;
+}
+
+.grup-tombol a {
+    color: black;
+    text-decoration: none;
+    padding: 20px 30px;
+    background: orange;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.grup-tombol:hover:nth-child(1) {
+    color: blue;
+    background: transparent;
+}
+
+grup-tombol:hover:nth-child(2) {
+    color: blue;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+
+grup-tombol:hover:nth-child(2) {
+    color: white;
+    background: transparent;
+}
+
+.model {
+    height: 580px;
+    position: absolute;
+    background: url(alif.jpg);
+    box-sizing: border-box;
+    bottom: 60px;
+    left: 80%;
+    transform: translateX(-60%);
+}
+
+.sosmed {
+    position: absolute;
+    bottom: 20px;
+    background: url(fb.png);
+    box-sizing: border-box;
+}
+
+.sosmed a {
+    display:inline-flex ;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 40px;
+    outline: 3px solid orange;
+    transition: .3s;
+}
+
+.sosmed a:hover {
+    transform: translateY(-5px);
+    background: url(fb.png);
+}
+
+.sosmed a i {
+    color: aqua;
+    font-size: 20px;
+    background: url(fb.png);
+}
+
+
+
+
+
+
+
